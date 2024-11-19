@@ -6,7 +6,7 @@ with open(r"C:\Users\manoj\OneDrive\Desktop\Sept_internship\api_google.txt","r")
     key = f.read().strip()
 
 # Configure the Generative AI API keys
-genai.configure(api_key = "AIzaSyDMLTyTHm434cCiU6wqisAbpNZ2jiz4kd4")
+genai.configure(api_key = key)
 
 # Title of the app
 st.title(":green[GenAI App ]-:blue[AI Code Reviewer] :sunglasses:")
